@@ -1,0 +1,51 @@
+body{
+  text-align: center;
+  justify-content: center;
+  margin: 230px 0;
+  background-image: url(images/15091283_3.jpg);
+}
+ .input{
+    padding: 19px 0;
+    height: 35px;
+    
+ }
+ input{
+    width: 250px;
+    height: 35px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: aqua;
+    color:#181414;
+    font-weight: bold;
+ }
+ ::placeholder{
+    color:#181414;
+ }
+ 
+ .btns{
+    display: flex;
+    flex-direction: column;
+   display: inline-flex;
+   gap:10px;
+ }
+ .btn{
+    background-color: red;
+    color: #fff;
+    width: 85px;
+    height: 28px;
+    border-radius: 8px;
+ }
+ .btn:hover{
+    background-color: rgb(26, 144, 213);
+ }
+
+ .container{
+    margin: 0 33%;
+    width: 30rem;
+  height: 16rem;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  
+  backdrop-filter: blur(5px);
+ }
