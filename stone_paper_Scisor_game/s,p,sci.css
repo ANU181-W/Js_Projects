@@ -1,0 +1,75 @@
+
+body{
+    background-image: url(images/back.jpg);
+}
+.container{
+    
+    margin: 10% 27%;
+    width: 46rem;
+    height: 28rem;
+    box-shadow: 0 0 1rem 0 rgba(63, 113, 222, 0.2); 
+    border-radius: 5px;
+    background-color: rgba(255, 252, 252, 0.925);
+  
+  backdrop-filter: blur(10px);
+  color: rgb(2, 9, 15);
+  
+}
+.score{
+    margin-top: 16px;
+    display: flex;
+    justify-content:space-evenly;
+    font-size: larger;
+    font-weight: 700;
+}
+.con{
+    display: flex;
+    margin-top: 26px;
+    
+}
+.card:hover{
+    
+    transform:scale(1.08);
+}
+button:hover{
+    cursor: pointer;
+}
+.card1 img{
+    background-color: rgba(255, 252, 252, 0.925);
+
+}
+img{
+    text-decoration: none;
+}
+.heading{
+    text-align: center;
+}
+.card h1{
+    margin: 0px 78px
+}
+.card button{
+    border: none;
+    background: none;
+}
+.result{
+    color:#000;
+    text-align: center;
+    margin-top: 50px;
+}
+.btn{
+    text-align: center;
+}
+.restart-btn{
+   border:none;
+   background-color: #f4f4f4;
+   color: #333;
+   padding: 0.4rem 1.3rem;
+  font-size: 1rem;
+  border-radius: 2rem;
+  font-weight: bold;
+  display: none; 
+}
+.restart-btn:hover{
+    background-color: #003699;
+    color:#fff;
+}
